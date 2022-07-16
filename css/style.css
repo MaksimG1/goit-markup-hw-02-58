@@ -1,7 +1,145 @@
-root:{
-  --primary-text-color:#ffff;
-}
-body{
-  font-family:
+  :root {
+    --background-color: #E5E5E5;
+    --basic-color: #212121;
+    --secondary-color: #2196F3;
+    --paragraph-color: #757575;
+    --just-white: #ffffff;
 
-}
+
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.03em;
+  }
+
+  .list {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+  }
+
+  .halflogo {
+    color: var(--secondary-color);
+  }
+
+  .navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+    transition: color .3s linear;
+
+  }
+
+  .navigation:hover,
+  .contacts:hover {
+    color: var(--secondary-color);
+
+  }
+
+  .contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+    transition: color .3s linear;
+  }
+
+  /* Hero========== */
+
+  .hero {
+    background-color: #2F303A;
+
+
+  }
+
+  .hero-title {
+    color: var(--just-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+
+  }
+
+  .btn {
+    background-color: #2196F3;
+    color: var(--just-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    border: 0px;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+
+  }
+
+  /* FEATURES======== */
+  .features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--basic-color)
+  }
+
+  .features-par {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--paragraph-color);
+  }
+
+  /* --field of activity  */
+  /* < !-- our team=============--> */
+  .activity_title,
+  .team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--basic-color)
+  }
+
+  .team-members {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    color: var(--basic-color);
+  }
+
+  .team_job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--paragraph-color);
+  }
+
+  /* FOOTER===== */
+  footer {
+    background-color: #2F303A;
+    ;
+  }
+
+  .f-address {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--just-white);
+
+  }
