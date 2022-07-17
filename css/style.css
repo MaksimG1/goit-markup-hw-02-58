@@ -4,8 +4,6 @@
     --secondary-color: #2196F3;
     --paragraph-color: #757575;
     --just-white: #ffffff;
-
-
   }
 
   body {
@@ -14,6 +12,14 @@
     font-weight: 400;
     color: #000000;
     letter-spacing: 0.03em;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
   }
 
   .list {
@@ -44,7 +50,9 @@
   }
 
   .navigation:hover,
-  .contacts:hover {
+  .contacts:hover,
+  .navigation:focus,
+  .contacts:focus {
     color: var(--secondary-color);
 
   }
@@ -70,7 +78,7 @@
     color: var(--just-white);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1, 36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -87,6 +95,7 @@
     border: 0px;
     border-radius: 4px;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
   }
 
