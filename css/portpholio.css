@@ -5,3 +5,43 @@
   height: 1px;
   margin: -1px;
 }
+
+body {
+
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--basic-color);
+  letter-spacing: 0.03em;
+}
+
+.curent {
+  color: var(--secondary-color);
+
+}
+
+
+button.curent {
+  background-color: var(--secondary-color);
+  color: var(--just-white)
+}
+
+button {
+  font-weight: 500;
+  font-size: 500px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.product_title {
+  color: var(--basic-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.product_description {
+  color: var(--paragraph-color);
+  font-size: 16px;
+  line-height: 1.8;
+}
