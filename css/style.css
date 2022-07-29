@@ -6,6 +6,12 @@
     --just-white: #ffffff;
   }
 
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
@@ -13,13 +19,19 @@
     letter-spacing: 0.03em;
   }
 
+
   .visually-hidden {
     position: absolute;
-    clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
+    padding: 0;
     margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
+
 
   .list {
     text-decoration: none;
@@ -105,7 +117,7 @@
   }
 
   .btn:hover {
-    background-color: var(--secondary-color);
+    background-color: #188CE8;
 
   }
 
